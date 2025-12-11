@@ -1,17 +1,29 @@
-1)Melaka Job Market Analysis & Salary Prediction Using Python
-This project explores the job market landscape in Melaka, Malaysia, focusing on job availability, and salary distribution. Using real job listing data, the analysis uncovers insights that can help fresh graduates, job seekers, and employers understand hiring trends and salary expectations.
+# Melaka Job Market Analysis & Salary Prediction Using Python
 
-2)This analysis aims to answer key questions:
-Which job categories have the highest demand in Melaka?
-Which sectors offer the highest median salaries?
+This project explores the **job market landscape in Melaka, Malaysia**, focusing on job availability and salary distribution. Using real job listing data, the analysis uncovers insights that can help **fresh graduates, job seekers, and employers** understand hiring trends and salary expectations.
 
-3)Tools & Technologies
-a)Python
-b)Pandas & NumPy – data cleaning & manipulation
-c)Matplotlib & Seaborn – visualizations
-d)Google Colab – development environment
+---
 
-4)Dataset Description
+## Key Questions
+
+This analysis aims to answer:
+
+1. Which job categories have the **highest demand** in Melaka?  
+2. Which sectors offer the **highest median salaries**?
+
+---
+
+## Tools & Technologies
+
+- **Python**  
+- **Pandas & NumPy** – data cleaning & manipulation  
+- **Matplotlib & Seaborn** – visualizations  
+- **Google Colab** – development environment  
+
+---
+
+## Dataset Description
+
 | Column                  | Description                   |
 | ----------------------- | ----------------------------- |
 | job_title               | Job position                  |
@@ -25,26 +37,31 @@ d)Google Colab – development environment
 | avg_salary              | Average salary for prediction |
 | Area, state             | Location information          |
 
-5)Top Job Categories by Vacancy
+---
+
+## Top Job Categories by Vacancy
+
 The categories with the highest number of vacancies in Melaka are:
-a)Accounting
-b)Manufacturing, Transport & Logistics
-c)Administration & Office Support
 
-6)Relationship Between Job Count & Salary
+1. **Accounting**  
+2. **Manufacturing, Transport & Logistics**  
+3. **Administration & Office Support**  
+
+---
+
+## Relationship Between Job Count & Salary
+
 A scatter plot analysis shows:
-a)Categories with high job demand do not always offer high salaries.
-b)Specialized categories with fewer jobs often provide higher salary opportunities.
-c)This helps job seekers align expectations between job availability and salary potential.
 
-7)Conclusion
-a)Accounting, Administration, and Manufacturing are the highest-demand categories in Melaka.
-b)Some categories offer higher salaries but fewer opportunities, such as Engineering and IT.
-c)Job seekers—especially fresh grads—should balance job availability with salary goals.
-d)The salary prediction model provides a foundation for job recommendation systems or salary benchmarking tools.
+1. Categories with **high job demand** do not always offer **high salaries**.  
+2. Specialized categories with **fewer jobs** often provide **higher salary opportunities**.  
+3. This helps job seekers align expectations between **job availability** and **salary potential**.
 
+---
 
+## Conclusion
 
-
-
-
+1. **Accounting, Administration, and Manufacturing** are the highest-demand categories in Melaka.  
+2. Some categories offer **higher salaries but fewer opportunities**, such as **Engineering and IT**.  
+3. Job seekers—especially fresh graduates—should **balance job availability with salary goals**.  
+4. The salary prediction model provides a foundation for **job recommendation systems or salary benchmarking tools**.
